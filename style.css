@@ -1,4 +1,5 @@
 ul {
+    display:contents;
     list-style: none;
     text-align: center;
 }
@@ -14,4 +15,8 @@ h1, h2 {
 
 h1 {
     background-color: aqua;
+}
+
+ol li{
+    margin: 6px;
 }
