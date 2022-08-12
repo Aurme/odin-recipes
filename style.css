@@ -1,9 +1,16 @@
- li {
-    
-    display: inline-block;
+
+ul {
+    list-style: none;
 }
 
-li::before {
-    content: '\00a0\2022\00a0\00a0';
-    color: rgb(0, 0, 0);
+ul li:nth-child(odd){
+    background-color: rgb(185, 185, 185);
+}
+h1, h2,
+ul {
+    text-align: center;
+}
+
+h1 {
+    background-color: aqua;
 }
